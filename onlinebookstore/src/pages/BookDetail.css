@@ -1,0 +1,129 @@
+
+.back-btn {
+  background: none;
+  color: #32ca7e;
+  padding: 0.5rem 0;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+.book-detail-content {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 3rem;
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 2px 12px rgba(224, 210, 210, 0.1);
+}
+.book-detail-cover {
+  background: #3ba853;
+  border-radius: 12px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.book-detail-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.book-detail-cover .book-cover-placeholder {
+  font-size: 6rem;
+}
+.book-category-badge {
+  display: inline-block;
+  background: #38b78a;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+.book-detail-info h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+.book-detail-info .book-author {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  margin-bottom: 1.5rem;
+}
+.book-description {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+.book-meta {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid #ecf0f1;
+  border-bottom: 1px solid #ecf0f1;
+}
+.meta-item {
+  display: flex;
+  flex-direction: column;
+}
+.meta-label {
+  font-size: 0.875rem;
+  color: #7f8c8d;
+}
+.meta-value {
+  font-weight: 600;
+  color: #2c3e50;
+}
+.book-purchase {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.book-purchase .book-price {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #27ae60;
+}
+.purchase-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #ecf0f1;
+  border-radius: 6px;
+  padding: 0.25rem;
+}
+.quantity-selector button {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  background: white;
+  font-size: 1.25rem;
+}
+.quantity-selector button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.quantity-selector span {
+  min-width: 40px;
+  text-align: center;
+  font-weight: 600;
+}
+.login-prompt a {
+  color: #34db7c;
+}
+@media (max-width: 768px) {
+  .book-detail-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .book-detail-cover {
+    height: 300px;
+  }
+}

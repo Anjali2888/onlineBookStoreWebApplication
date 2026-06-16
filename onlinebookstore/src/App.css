@@ -1,0 +1,99 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+.page-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.btn-primary {
+  background: #417637;
+  color: white;
+}
+.btn-primary:hover {
+  background: #40856c;
+}
+.btn-secondary {
+  background: #95a5a6;
+  color: white;
+}
+.btn-secondary:hover {
+  background: #7f8c8d;
+}
+.btn-danger {
+  background: #e74c3c;
+  color: white;
+}
+.btn-danger:hover {
+  background: #c0392b;
+}
+.btn-success {
+  background: #27ae60;
+  color: white;
+}
+.btn-success:hover {
+  background: #229954;
+}
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #3498db;
+}
+.error-message {
+  background: #fee;
+  color: #c0392b;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+.success-message {
+  background: #d5f5e3;
+  color: #27ae60;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #7f8c8d;
+}
