@@ -210,7 +210,7 @@ Access at `http://localhost:8080/h2-console`
 
 ## 🧰 Tech Stack
 
-- **Spring Boot 3.2**
+- **Spring Boot 4.1**
 - **Spring Security** (HTTP Basic Auth)
 - **Spring Data JPA** + Hibernate
 - **H2** (in-memory database)
