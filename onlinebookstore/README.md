@@ -1,6 +1,6 @@
 # 📚 Folio Bookstore — React Frontend
 
-A full React 16 frontend for the Spring Boot Online Bookstore API.
+A full React 19 frontend for the Spring Boot Online Bookstore API.
 
 ---
 ## 🚀 Quick Start
@@ -98,7 +98,7 @@ npm run build
 
 ## 🛠 Tech Stack
 
-- **React 18** — functional components + hooks
+- **React 19** — functional components + hooks
 - **React Router v7** — client-side routing
 - **Axios** — HTTP client with request/response interceptors
 - **Context API** — Auth + Cart global state
