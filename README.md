@@ -43,7 +43,7 @@ src/main/java/onlinebookstore/application/
 **Prerequisites:** Java 23+, Maven 3.4+
 
 ```bash
-cd bookstore
+cd onlinebookstore
 mvn spring-boot:run
 ```
 
